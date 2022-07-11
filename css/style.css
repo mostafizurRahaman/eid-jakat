@@ -118,3 +118,71 @@ padding: 10px 20px;
 }
 
 /* Our services types */
+#services{
+  padding: 40px 0 60px;
+}
+.services_wrap{
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+}
+.services_wrap .top_sec{
+  text-align:center;
+  width: 60%;
+  
+}
+.services_wrap .bottom_sec{
+ flex-wrap: wrap;
+ row-gap: 50px;
+ justify-content: space-between;
+}
+.services_wrap .bottom_sec .service{
+  width: 48%;
+  border: 1px solid rgb(255, 39, 1);
+  background: #FEF4F5;
+  padding: 20px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 2s all ease;
+  -webkit-transition: 2s all ease;
+  -moz-transition: 2s all ease;
+  -ms-transition: 2s all ease;
+  -o-transition: 2s all ease;
+}
+.services_wrap .bottom_sec .service:hover{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.services_wrap .bottom_sec .service .service_left{
+  width: 25%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.services_wrap .bottom_sec .service .service_left .fa-solid {
+  font-size: 75px;
+  color: rgb(241, 58, 7);
+  
+}
+.services_wrap .bottom_sec .service .service_right{
+  width: 75%;  
+  
+}
+ .service .service_right h4{
+  color: #000;
+  margin-bottom:0px; 
+  text-transform: capitalize;
+  
+}
+ .service .service_right p{
+  color: #707070
+  
+}
