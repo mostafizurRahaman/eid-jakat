@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  padding:0 ;
+  font-family: "Inter",sans-serif;
+  text-transform: capitalize;
+}
+/* Reuseable typography */
+.flexible {
+  display: flex;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 55px;
+ 
+}
+h2 {
+  font-size: 45px;
+}
+h4{
+  font-size: 24.2px;
+}
+p{
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+
+.btn{
+  padding: 10px 20px;
+  background: #EF233C;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* header section style start  */
+#header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.059)),url(img/header-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+}
+.header_wrap {
+  align-items: center;
+  height: 100%;
+}
+.header_element {
+  width: 500px;
+}
